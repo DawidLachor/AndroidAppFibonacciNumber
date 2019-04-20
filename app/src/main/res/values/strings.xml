@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CiagFibonaciego</string>
+    <string name="calculate_nth_fibonaciego">Calculate Nth Fibonaciego</string>
+    <string name="wpisz_n_ty_ciag_fibonaciego">Wpisz n-ty ciag fibonaciego</string>
+    <string name="wynik">Wynik</string>
+    <string name="fibbonacci">Fibbonacci</string>
+    <string name="n_ty">N-ty</string>
+</resources>

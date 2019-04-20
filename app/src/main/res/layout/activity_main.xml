@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF"
+        tools:context=".MainActivity">
+
+    <ImageView
+            android:id="@+id/image"
+            android:src="@drawable/fibonacci"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/wynik"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/fibbonacci"/>
+
+    <TextView
+            android:id="@+id/wynik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calculate_nth_fibonaciego"
+            android:layout_centerInParent="true"
+            android:textSize="16sp"
+            />
+    <EditText
+            android:id="@+id/input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="200dp"
+            android:layout_below="@id/wynik"
+            android:layout_centerInParent="true"
+            android:textSize="17sp"
+            android:inputType="number" android:hint="@string/n_ty"/>
+
+    <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/wynik"
+            android:layout_below="@id/input"
+
+    />
+
+</RelativeLayout>
